@@ -60,7 +60,7 @@
                            &kp W      &kp E       &kp R          &kp T         &kp Y            &kp U          &kp I       &kp O     
           &kp Q &hm LGUI A &hm LALT S &hm LCTRL D &hm LSHFT F    &kp G         &kp H            &hm RSHFT J    &hm RCTRL K &hm LALT L &hm LGUI QUOT &kp P
                 &kp Z      &kp X      &kp C       &kp V          &kp B         &kp N            &kp M          &kp COMMA   &kp DOT    &kp FSLH
-                                                  &lt NAV_L TAB  &lt OTH_L RET &lt NUM_L SPACE  &lt SYM_L BKSP
+                                                  &lt OTH_L RET  &lt NAV_L TAB   &lt NUM_L SPACE  &lt SYM_L BKSP
             >;
         };
 
@@ -68,7 +68,7 @@
             label = "Nav";
             bindings = <
                            &trans     &trans      &trans          &trans       &trans           &trans         &trans      &trans     
-         &trans &trans     &trans     &trans      &trans          &trans       &tog GME_L       &kp LARW       &kp DARW    &kp UARW   &kp RARW &trans
+         &trans &trans     &trans     &trans      &trans          &tog GME_L   &trans           &kp LARW       &kp DARW    &kp UARW   &kp RARW &trans
                 &trans     &trans     &trans      &trans          &trans       &trans           &kp HOME       &kp PG_DN   &kp PG_UP  &kp END
                                                   &trans          &trans       &kp ESC          &kp DEL
             >;
@@ -117,10 +117,10 @@
         gaming_layer {
             label = "Gaming";
             bindings = <
-                           &trans     &trans      &trans          &trans       &trans           &trans         &trans       &trans       
-         &trans &kp A      &kp S      &kp D       &kp F           &kp G        &trans           &trans         &trans       &trans       &trans &trans
-                &trans     &trans     &trans      &trans          &trans       &kp N            &kp M          &kp COMMA    &kp DOT      &tog GME_L
-                                                  &kp SPACE       &mo NMR_L    &lt OTH_L RET    &lt SYM_L BKSP
+	                        &kp Q     &kp W      &kp E           &kp R       &trans           &trans         &trans       &trans       
+               &kp T &kp G      &kp A     &kp S      &kp D           &kp F       &trans           &trans         &trans       &trans       &trans    &trans
+		     &kp B      &kp Z     &kp X      &kp C           &kp V       &trans           &trans         &trans       &trans       &tog GME_L
+                                                  &kp SPACE       &mo NMR_L      &lt OTH_L RET    &lt SYM_L BKSP
             >;
         };
 
